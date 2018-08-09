@@ -2,36 +2,44 @@
 
 
 [[projects]]
+  digest = "1:e2d1d410fb367567c2b53ed9e2d719d3c1f0891397bb2fa49afd747cfbf1e8e4"
   name = "github.com/mattn/go-runewidth"
   packages = ["."]
+  pruneopts = "UT"
   revision = "9e777a8366cce605130a531d2cd6363d07ad7317"
   version = "v0.0.2"
 
 [[projects]]
   branch = "develop"
+  digest = "1:f52924952d2bd0b2797e371c97a29676057ec6f84e3df2d30ea6a405b1766746"
   name = "github.com/mritd/promptx"
   packages = [
     ".",
     "list",
-    "util"
+    "util",
   ]
+  pruneopts = "UT"
   revision = "599061ab5daa845e2d6e4313d179073ddbbf393f"
 
 [[projects]]
   branch = "develop"
+  digest = "1:e2b135055ca20cdc9037618781f78caa14080e7e0e02e79969fed47f1c97c942"
   name = "github.com/mritd/readline"
   packages = ["."]
+  pruneopts = "UT"
   revision = "ae245b60ddeb65cbbbe2b42da961f46d0b812f43"
 
 [[projects]]
   branch = "master"
+  digest = "1:76b5ca88193bf744f729c2fde12151b24364ffaca3fd092069d9ca2ea6e1f999"
   name = "golang.org/x/sys"
   packages = ["unix"]
+  pruneopts = "UT"
   revision = "904bdc257025c7b3f43c19360ad3ab85783fad78"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "7043b33eb453d8677234479cb5ad81c3cb7c775986af5b7cb108af27033a7331"
+  input-imports = ["github.com/mritd/promptx"]
   solver-name = "gps-cdcl"
   solver-version = 1
