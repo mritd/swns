@@ -1,0 +1,5 @@
+name: "swns"
+shortDesc: "Switch NameSpace"
+longDesc: "Switch Kubernetes current context namespace."
+example: "kubectl plugin swns [NAMESPACE]"
+command: "./swns"
